@@ -2,6 +2,15 @@
     display: block;
 }
 
-.cat {
-    border: 1px slateblue dotted;
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+
+  .cat {
+    font-weight: bold;
+}
+.cat div:first-child {
+    font-size: 1.2em;
 }
